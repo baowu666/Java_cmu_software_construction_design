@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.cs.cs214.hw5.framework.UserInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-04-10T06:14:08" hostname="zhaorus-MacBook-Pro.local" time="0.026">
+  <properties/>
+  <testcase name="test" classname="edu.cmu.cs.cs214.hw5.framework.UserInfoTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

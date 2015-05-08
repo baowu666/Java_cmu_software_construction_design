@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/DataButtonListener.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/GUI.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/Main.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Framework.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/FrameworkChangeListener.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/FrameworkImpl.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Location.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Post.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserBean.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserInfo.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserInfoImpl.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/AnalysisPlugin.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/DataPlugin.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/FacebookData.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/PersonalityAnalysis.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/PostTimeAnalysis.java">
+</file>
+<file name="/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/TwitterData.java">
+</file>
+</checkstyle>

@@ -1,0 +1,57 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+apply plugin: 'cobertura'
+apply plugin: 'findbugs'
+apply plugin:'application'
+
+// Uncomment the line below and add the path to your own main class here:
+// mainClassName = 'edu.cmu.cs.cs214.hw4.gui.Main'
+
+test.testLogging { exceptionFormat "full"; events "failed", "passed", "skipped" }
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:5.0.3'
+        forcedModules = [ 'org.ow2.asm:asm:5.0.3' ]
+    }
+}
+
+findbugs {
+  toolVersion = "3.0.0"
+}
+
+checkstyle{
+  toolVersion = "6.2"
+  sourceSets = [sourceSets.main]
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: '4.11'
+  compile fileTree(dir: 'libs', include: '*.jar')
+  compile group: 'org.twitter4j', name: 'twitter4j-async', version: '4.0.2'
+  compile group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.2'
+  compile 'com.tumblr:jumblr:0.0.11'
+  compile group: 'org.facebook4j', name: 'facebook4j-core', version: '2.2.2'
+  compile 'org.kohsuke:github-api:1.66'
+}
+
+buildscript{
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath 'net.saliman:gradle-cobertura-plugin:2.2.5'
+  }
+}
+
+run {
+  main = 'edu.cmu.cs.cs214.hw5.Main'
+}
+
+cobertura.coverageFormats = ['html', 'xml']

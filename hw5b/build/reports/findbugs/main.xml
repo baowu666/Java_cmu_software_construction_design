@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1428646437094" analysisTimestamp="1428646437176" release="">
+  <Project projectName="">
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/Framework.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/FrameworkChangeListener.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/FrameworkImpl.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/Location.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/Post.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserBean.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfo$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfo$2.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfo.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfoImpl$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfoImpl$2.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/framework/UserInfoImpl.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/DataButtonListener$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/DataButtonListener.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/GUI.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/Main$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/GUI/Main.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/AnalysisPlugin.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/DataPlugin.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/FacebookData.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/PersonalityAnalysis.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/PostTimeAnalysis$1.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/PostTimeAnalysis.class</Jar>
+    <Jar>/Users/zhaoru/ruz/15214/Team28/hw5b/build/classes/main/edu/cmu/cs/cs214/hw5/plugin/TwitterData.class</Jar>
+    <AuxClasspathEntry>/Users/zhaoru/ruz/15214/Team28/hw5b/libs/egit-core-3.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.1.6/bfbcfdd207c971f31b274c463620af90b6dcff0d/google-maps-services-0.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/org.facebook4j/facebook4j-core/2.2.2/7d7d2e36434c46d0891e742b8bed5e5765b7da11/facebook4j-core-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-async/4.0.2/bcd25b8f3e6ec54a947fcde5eca72ab0c9fc1389/twitter4j-async-4.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-core/4.0.2/6555e7c45f5db0006823731b2ddb536d481e11d1/twitter4j-core-4.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/ba9ee7dbb2e4c57a6901c79f614ed2dea9cc0e20/jfreechart-1.0.19.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.4/89e9725439adffbbd41c5f5c215c136082b34a7f/joda-time-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/org.jfree/jcommon/1.0.23/a316f336ca996e0c6bec4e4fbd49be8f5e1c3968/jcommon-1.0.23.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/zhaoru/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar</AuxClasspathEntry>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Framework.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/FrameworkChangeListener.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/FrameworkImpl.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Location.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/Post.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserBean.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserInfo.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/framework/UserInfoImpl.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/DataButtonListener.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/GUI.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/GUI/Main.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/AnalysisPlugin.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/DataPlugin.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/FacebookData.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/PersonalityAnalysis.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/PostTimeAnalysis.java</SrcDir>
+    <SrcDir>/Users/zhaoru/ruz/15214/Team28/hw5b/src/main/java/edu/cmu/cs/cs214/hw5/plugin/TwitterData.java</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener" start="29" end="41" sourcefile="AnalysisButtonListener.java" sourcepath="edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.java"/>
+    </Class>
+    <Field classname="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener" name="gui" signature="Ledu/cmu/cs/cs214/hw5/GUI/GUI;" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener" sourcefile="AnalysisButtonListener.java" sourcepath="edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.java"/>
+    </Field>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener" start="32" end="32" startBytecode="16" endBytecode="16" sourcefile="AnalysisButtonListener.java" sourcepath="edu/cmu/cs/cs214/hw5/GUI/AnalysisButtonListener.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="edu.cmu.cs.cs214.hw5.framework.UserBean">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="26" end="161" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+    </Class>
+    <Method classname="edu.cmu.cs.cs214.hw5.framework.UserBean" name="getStopWords" signature="()Ljava/util/HashSet;" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="106" end="125" startBytecode="0" endBytecode="497" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="611" end="612" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="109" end="109" startBytecode="23" endBytecode="23" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="edu.cmu.cs.cs214.hw5.framework.UserBean">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="26" end="161" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+    </Class>
+    <Method classname="edu.cmu.cs.cs214.hw5.framework.UserBean" name="getPostsContent" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="85" end="102" startBytecode="0" endBytecode="452" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+    </Method>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.framework.UserBean" start="95" end="95" startBytecode="128" endBytecode="128" sourcefile="UserBean.java" sourcepath="edu/cmu/cs/cs214/hw5/framework/UserBean.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE">
+    <Class classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" start="30" end="83" sourcefile="FacebookData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FacebookData.java"/>
+    </Class>
+    <Method classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" start="30" end="34" startBytecode="0" endBytecode="103" sourcefile="FacebookData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FacebookData.java"/>
+    </Method>
+    <Field classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" name="facebook" signature="Lfacebook4j/Facebook;" isStatic="true">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" sourcefile="FacebookData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FacebookData.java"/>
+    </Field>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FacebookData" start="31" end="31" startBytecode="14" endBytecode="14" sourcefile="FacebookData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FacebookData.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis" start="31" end="153" sourcefile="FavoriteWordAnalysis.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.java"/>
+    </Class>
+    <Field classname="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis" name="lessFreq" signature="Z" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis" sourcefile="FavoriteWordAnalysis.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.java"/>
+    </Field>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis" start="42" end="42" startBytecode="16" endBytecode="16" sourcefile="FavoriteWordAnalysis.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/FavoriteWordAnalysis.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="edu.cmu.cs.cs214.hw5.plugin.TwitterData">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.TwitterData" start="34" end="117" sourcefile="TwitterData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/TwitterData.java"/>
+    </Class>
+    <Method classname="edu.cmu.cs.cs214.hw5.plugin.TwitterData" name="extractPostsByName" signature="(Ljava/lang/String;I)Ljava/util/List;" isStatic="false">
+      <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.TwitterData" start="45" end="76" startBytecode="0" endBytecode="658" sourcefile="TwitterData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/TwitterData.java"/>
+    </Method>
+    <LocalVariable name="user" register="4" pc="191" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="twitter4j.Twitter" name="showUser" signature="(Ljava/lang/String;)Ltwitter4j/User;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="twitter4j.Twitter" sourcefile="Twitter.java" sourcepath="twitter4j/Twitter.java"/>
+    </Method>
+    <SourceLine classname="edu.cmu.cs.cs214.hw5.plugin.TwitterData" start="71" end="71" startBytecode="193" endBytecode="193" sourcefile="TwitterData.java" sourcepath="edu/cmu/cs/cs214/hw5/plugin/TwitterData.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 10 Apr 2015 02:13:57 -0400" total_classes="27" referenced_classes="137" total_bugs="6" total_size="1023" num_packages="3" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="15.67" clock_seconds="5.46" peak_mbytes="216.60" alloc_mbytes="1820.50" gc_seconds="0.13" priority_2="4" priority_1="2">
+    <PackageStats package="edu.cmu.cs.cs214.hw5.GUI" total_bugs="1" total_types="6" total_size="224" priority_2="1">
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.AnalysisButtonListener" sourceFile="AnalysisButtonListener.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.DataButtonListener" sourceFile="DataButtonListener.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.DataButtonListener$1" sourceFile="DataButtonListener.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.GUI" sourceFile="GUI.java" interface="false" size="123" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.Main" sourceFile="Main.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.GUI.Main$1" sourceFile="Main.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.cmu.cs.cs214.hw5.framework" total_bugs="2" total_types="12" total_size="334" priority_2="1" priority_1="1">
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.Framework" sourceFile="Framework.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.FrameworkChangeListener" sourceFile="FrameworkChangeListener.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.FrameworkImpl" sourceFile="FrameworkImpl.java" interface="false" size="101" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.Location" sourceFile="Location.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.Post" sourceFile="Post.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserBean" sourceFile="UserBean.java" interface="false" size="74" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfo" sourceFile="UserInfo.java" interface="true" size="17" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfo$1" sourceFile="UserInfo.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfo$2" sourceFile="UserInfo.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfoImpl" sourceFile="UserInfoImpl.java" interface="false" size="71" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfoImpl$1" sourceFile="UserInfoImpl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.framework.UserInfoImpl$2" sourceFile="UserInfoImpl.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.cmu.cs.cs214.hw5.plugin" total_bugs="3" total_types="9" total_size="465" priority_2="2" priority_1="1">
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.AnalysisPlugin" sourceFile="AnalysisPlugin.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.DataPlugin" sourceFile="DataPlugin.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.FacebookData" sourceFile="FacebookData.java" interface="false" size="43" bugs="1" priority_1="1"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis" sourceFile="FavoriteWordAnalysis.java" interface="false" size="87" bugs="1" priority_2="1"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.FavoriteWordAnalysis$1" sourceFile="FavoriteWordAnalysis.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.PersonalityAnalysis" sourceFile="PersonalityAnalysis.java" interface="false" size="163" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.PostTimeAnalysis" sourceFile="PostTimeAnalysis.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.PostTimeAnalysis$1" sourceFile="PostTimeAnalysis.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.cmu.cs.cs214.hw5.plugin.TwitterData" sourceFile="TwitterData.java" interface="false" size="56" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="776" invocations="1330" avgMicrosecondsPerInvocation="584" maxMicrosecondsPerInvocation="36319" standardDeviationMircosecondsPerInvocation="1563"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="419" invocations="137" avgMicrosecondsPerInvocation="3060" maxMicrosecondsPerInvocation="44710" standardDeviationMircosecondsPerInvocation="6158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="272" invocations="484" avgMicrosecondsPerInvocation="562" maxMicrosecondsPerInvocation="16499" standardDeviationMircosecondsPerInvocation="1252"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="246" invocations="1331" avgMicrosecondsPerInvocation="185" maxMicrosecondsPerInvocation="9297" standardDeviationMircosecondsPerInvocation="665"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="164" invocations="1290" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="31733" standardDeviationMircosecondsPerInvocation="966"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="161" invocations="131" avgMicrosecondsPerInvocation="1229" maxMicrosecondsPerInvocation="17576" standardDeviationMircosecondsPerInvocation="2589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="156" invocations="120" avgMicrosecondsPerInvocation="1305" maxMicrosecondsPerInvocation="13913" standardDeviationMircosecondsPerInvocation="2541"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="136" invocations="126" avgMicrosecondsPerInvocation="1084" maxMicrosecondsPerInvocation="12744" standardDeviationMircosecondsPerInvocation="2066"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="130" invocations="114" avgMicrosecondsPerInvocation="1145" maxMicrosecondsPerInvocation="23089" standardDeviationMircosecondsPerInvocation="2782"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="127" invocations="120" avgMicrosecondsPerInvocation="1060" maxMicrosecondsPerInvocation="12860" standardDeviationMircosecondsPerInvocation="2039"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="104" invocations="137" avgMicrosecondsPerInvocation="765" maxMicrosecondsPerInvocation="16917" standardDeviationMircosecondsPerInvocation="1785"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="102" invocations="137" avgMicrosecondsPerInvocation="747" maxMicrosecondsPerInvocation="15251" standardDeviationMircosecondsPerInvocation="1788"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="100" invocations="120" avgMicrosecondsPerInvocation="837" maxMicrosecondsPerInvocation="14801" standardDeviationMircosecondsPerInvocation="1705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="95" invocations="185" avgMicrosecondsPerInvocation="515" maxMicrosecondsPerInvocation="26571" standardDeviationMircosecondsPerInvocation="2032"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="87" invocations="89" avgMicrosecondsPerInvocation="987" maxMicrosecondsPerInvocation="14502" standardDeviationMircosecondsPerInvocation="2043"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="87" invocations="120" avgMicrosecondsPerInvocation="727" maxMicrosecondsPerInvocation="43128" standardDeviationMircosecondsPerInvocation="3980"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="86" invocations="154" avgMicrosecondsPerInvocation="560" maxMicrosecondsPerInvocation="56076" standardDeviationMircosecondsPerInvocation="4518"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="75" invocations="137" avgMicrosecondsPerInvocation="548" maxMicrosecondsPerInvocation="24175" standardDeviationMircosecondsPerInvocation="2943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="70" invocations="137" avgMicrosecondsPerInvocation="512" maxMicrosecondsPerInvocation="7628" standardDeviationMircosecondsPerInvocation="1049"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="69" invocations="137" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="10485" standardDeviationMircosecondsPerInvocation="1170"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="68" invocations="137" avgMicrosecondsPerInvocation="502" maxMicrosecondsPerInvocation="17581" standardDeviationMircosecondsPerInvocation="1639"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

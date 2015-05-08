@@ -1,0 +1,54 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+apply plugin: 'cobertura'
+apply plugin: 'findbugs'
+apply plugin:'application'
+
+test.testLogging { exceptionFormat "full"; events "failed", "passed", "skipped" }
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:5.0.3'
+        forcedModules = [ 'org.ow2.asm:asm:5.0.3' ]
+    }
+}
+
+findbugs {
+  ignoreFailures = true
+  toolVersion = "3.0.0"
+}
+
+checkstyle{
+  toolVersion = "6.2"
+  sourceSets = [sourceSets.main]
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'com.google.maps:google-maps-services:0.1.6'
+  testCompile group: 'junit', name: 'junit', version: '4.11'
+  compile fileTree(dir: 'libs', include: '*.jar')
+  compile group: 'org.facebook4j', name: 'facebook4j-core', version: '2.2.2'
+  compile group: 'org.twitter4j', name: 'twitter4j-async', version: '4.0.2'
+  compile group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.2'
+  compile group: 'org.jfree', name: 'jfreechart', version: '1.0.19'
+}
+
+buildscript{
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath 'net.saliman:gradle-cobertura-plugin:2.2.5'
+  }
+}
+
+run {
+  main = 'edu.cmu.cs.cs214.hw5.GUI.Main'
+}
+cobertura.coverageFormats = ['html', 'xml']
